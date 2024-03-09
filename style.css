@@ -42,7 +42,7 @@ section div{
   position: absolute;
   background: #007bff86;
   font-weight: bold;
-  width: 55%;
+  width: 55vw;
   width: fit-content;
   border-radius: 16px;
   padding: 48px 16px;
