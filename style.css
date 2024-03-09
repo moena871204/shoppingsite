@@ -33,7 +33,6 @@ header a{
 
 section{
   position: relative;
-  width: 100%;
 }
 section img{
   width: 100%;
@@ -47,7 +46,7 @@ section div{
   border-radius: 16px;
   padding: 48px 16px;
   top: 64px;
-  left: 220px;
+  left: 0;
 }
 section p{
   font-size: 24px;
@@ -112,6 +111,12 @@ main{
   font-size: 20px;
 }
 
+@media (min-width: 480px){
+  section div{
+    left: 220px;
+  }
+}
+
 @media (min-width: 800px) {
   main{
     display: flex;
@@ -123,10 +128,9 @@ main{
     width: calc(100% / 2 - 18px);
   }
   section div{
-    width: 47vw;
-    width: fit-content;
-    left: 690px;
+    left: 550px;
     background: #007bff86;
+    width: fit-content;
   }
   section p{
     font-size: 50px;
