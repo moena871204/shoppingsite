@@ -33,18 +33,19 @@ header a{
 
 section{
   position: relative;
+  width: 100%;
 }
 section img{
   width: 100%;
 }
 section div{
+  position: absolute;
   background: #007bff86;
   font-weight: bold;
   width: 55%;
   width: fit-content;
   border-radius: 16px;
   padding: 48px 16px;
-  position: absolute;
   top: 64px;
   left: 220px;
 }
