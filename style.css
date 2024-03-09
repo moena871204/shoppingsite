@@ -41,12 +41,12 @@ section div{
   background: #007bff86;
   font-weight: bold;
   width: 55%;
+  width: fit-content;
   border-radius: 16px;
   padding: 48px 16px;
   position: absolute;
   top: 64px;
   left: 220px;
-  display: inline-block;
 }
 section p{
   font-size: 24px;
@@ -85,6 +85,7 @@ main{
 }
 .price{
   padding: 16px 0;
+  width: 100%;
 }
 .content span{
   color: gray;
